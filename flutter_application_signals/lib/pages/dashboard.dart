@@ -19,7 +19,7 @@ class _DashboardPageState extends State<DashboardPage> {
 
     // 注册单例 - 当前用户
     GetIt.I.registerSingleton<UserModel>(
-      UserModel(),
+      UserModel (),
     );
   }
 
